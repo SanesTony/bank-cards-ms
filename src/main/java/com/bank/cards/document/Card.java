@@ -24,6 +24,12 @@ public class Card implements Serializable{
 	@Id
 	private String id;
 	
+	@Field(name = "customerId")
+	private String customerId;
+	
+	@Field(name = "productId")
+	private String productId;
+
 	@Field(name = "cardType")
 	private String cardType;
 	
